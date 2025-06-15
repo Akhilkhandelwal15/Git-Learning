@@ -1,4 +1,6 @@
-#git commands
+```bash
+
+# git commands
 
 git --version
 git init
@@ -59,7 +61,6 @@ git push -u origin main                  # -u = upstream, allows you to run futu
 
 ## 📁 Additional Commands:
 
-```bash
 touch <file_name>          # to create a new file (multiple can be created)
 mkdir <directory_name>     # to create a new directory (multiple can be created)
 
