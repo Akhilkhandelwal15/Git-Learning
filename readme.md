@@ -1,3 +1,4 @@
+```bash
 # git commands
 
 git --version
