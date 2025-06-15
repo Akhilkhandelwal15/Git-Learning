@@ -39,6 +39,26 @@ git checkout HEAD :	Restore all files to latest commit
 git checkout HEAD~2 : Move to the commit 2 steps before current one
 git rebase: Use with caution. Never use it when you are in main or master branch.
 git branch -M <branch_name> : to rename the branch
+git clone <url> : To bring a remote repository to local (Our system)
+git fetch : Downloads remote changes but does not apply them
+git pull: (git fetch + git merge) : Downloads and merges remote changes into current
+git pull origin main: Get the latest changes from the main branch of the remote repository named origin and merge them into your current local branch.
+
+
+#detailed explanation of git pull and git fetch:
+
+git fetch <remote_name>
+Downloads new data (commits, branches, tags) from the remote repository.
+Does not automatically merge those changes into your local branch.
+You can review the fetched changes before applying them.
+Useful when you want to inspect changes before integrating them.
+
+git pull <remote_name> <branch_name>
+It is equivalent to:
+git fetch + git merge
+It downloads new changes from the remote and automatically merges them into your current branch.
+Use it when you are ready to bring remote changes into your local working branch.
+Can lead to merge conflicts if your local branch has diverged from the remote.
 
 
 #github related commands
