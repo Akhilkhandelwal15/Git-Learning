@@ -129,7 +129,7 @@ index 9db1d0f..aa58929 100644
 # additonal commands and description
 
 git reflog:
-Shows a history of all changes to HEAD — even if you've moved branches or deleted commits.
+Shows a history of all changes to HEAD — even if you have moved branches or deleted commits.
 Think of it like a "Git undo history".
 
 git restore <file_name>:
